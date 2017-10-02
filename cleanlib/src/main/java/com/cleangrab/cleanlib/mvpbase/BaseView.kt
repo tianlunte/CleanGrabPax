@@ -15,6 +15,4 @@ package com.cleangrab.cleanlib.mvpbase
  *
  */
 
-interface BaseView<P> {
-    fun setPresenter(presenter: P)
-}
+interface BaseView
