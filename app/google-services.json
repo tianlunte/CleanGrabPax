@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339517144075",
+    "firebase_url": "https://cleanpaxadr.firebaseio.com",
+    "project_id": "cleanpaxadr",
+    "storage_bucket": "cleanpaxadr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339517144075:android:42d467a5f7f3b3e4",
+        "android_client_info": {
+          "package_name": "com.cleangrab.cleanpaxadr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339517144075-jtovbu14vg5enbc416kgmhoojaprbd3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cleangrab.cleanpaxadr",
+            "certificate_hash": "4682d86a3314f51d4df694fad2a68c9955ef8e32"
+          }
+        },
+        {
+          "client_id": "339517144075-0qq429bi59l7it3djk4m8sfib0sb2qkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpeB49ifbyUiWoPlX0Vd0KrfIe1mR09Qg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339517144075-0qq429bi59l7it3djk4m8sfib0sb2qkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
