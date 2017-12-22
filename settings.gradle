@@ -1,1 +1,1 @@
-include ':app', ':cleanlib'
+include ':app', ':cleanlib', ':cleandag'

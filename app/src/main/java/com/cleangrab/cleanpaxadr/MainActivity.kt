@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
+import com.cleangrab.cleandag.Mountain
 import com.cleangrab.cleanpaxadr.di.DaggerAppComponent
 import com.cleangrab.cleanpaxadr.models.IntContainer
 import io.reactivex.Observable
@@ -22,6 +23,7 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject lateinit var times: IntContainer
+    @Inject lateinit var mountain: Mountain
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,5 +35,7 @@ class MainActivity : AppCompatActivity() {
         DaggerAppComponent.builder().build().getHomeBuilder().build().inject(this)
 
         Log.d("WQY", "--> ${times.num}")
+
+        mountain.climb()
     }
 }
